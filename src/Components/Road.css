@@ -1,0 +1,159 @@
+.wrap{
+    background-image: url("/public/image/Asset 27.svg");
+    min-height: 100%;
+    /* background-position: top left; */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: white;
+} 
+
+body{
+  
+    margin:0;
+    padding:0;
+    width:100vw; 
+    height:100vh;
+    /* overflow:hidden; */
+  }
+  
+  h1, h2, h3, h4,h5, h6{
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  p, a, ul li{
+    font-family: 'Dongle', sans-serif;
+    font-weight:400;
+    font-size:20px;
+  }
+  .main-title{
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+  }
+  .slider {
+    margin: 80px 0;
+    height: 200px;
+    display: block;
+    perspective: 1000px;
+    position: relative;
+    width: 100vw;
+  }
+  
+   .slide{
+     margin-left:-50px;
+      display: inline-block;
+      width: 400px;
+      position: absolute;
+      backface-visibility: hidden;
+      transition: .4s all;
+      border-radius:20px;
+      color:white;
+      backdrop-filter:blur(10px);
+      border: double 1px transparent;
+      border-radius: 30px;
+      background-image: linear-gradient(#0200546b, #0000006b), 
+      linear-gradient(to right, #54b18f73, #08f6a775);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+    }
+  
+  .slide-container{
+    padding:20px 30px;
+  }
+  
+  .slide-container ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  .slide-container ul li{
+    padding:0;
+  }
+  
+  .slide.active {
+      z-index: 4; 
+    }
+
+  
+    body {
+      font-family: sans-serif;
+      font-size: 16px;
+    }
+    
+    body {
+      font-family: sans-serif;
+      font-size: 16px;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+     
+      margin: 0 auto;
+      padding: 50px;
+    }
+    
+    .prodNav {
+      font-size: 12px;
+      background: #f5f5f5;
+       border-radius: 20px; 
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 50px 0 20px;
+      line-height: 1.1;
+      
+    }
+    ol, ul {
+      padding-left: 0rem;
+  }
+    .prodNav .ptItem {
+      padding: 9px 35px;
+      line-height: 20px;
+      /* border-radius: 20px; */
+      border: 1px solid transparent;
+      font-weight: 500;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: middle;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .prodNav .ptItem.active,
+    .prodNav .ptItem:hover {
+      background: #149165;
+      border-color: #108e57;
+      color: #ffffff;
+    }
+    
+    .prodBody {
+      border: 2px solid #54b18f73;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    
+    .prodMain {
+      display: none;
+      padding: 20px;
+      color: #ffffff;
+    }
+    
+    .prodMain.active {
+      display: block;
+    }
+    
+    #pTab1C {
+      background: #54b18f73;
+    }
+    #pTab2C {
+      background: #5a967b;
+    }
+    
+    #pTab3C {
+      background: #599b86;
+    }
+    
+    
