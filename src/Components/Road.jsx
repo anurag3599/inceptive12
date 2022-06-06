@@ -93,198 +93,187 @@ function Road() {
         var slider = Slider.init();
     })
 
-
     return (
 
         <>
             <div className="container-fluid wrap">
 
+                <div className="roadbg">
                 <Navbar />
 
-                <div className="container" >
-                    <div className="col-md-12 col-sm-12 col-12 text-white">
-                        <h1 style={{ marginTop: "20%", fontSize: "60px", marginBottom: "15%" }}>The Roadmap <br />Rank</h1>
-                    </div>
+<div className="container" >
+   <h2 className="headingtext text-center mt-4">The Roadmap Rank</h2>
+</div>
+
+<h1 class="main-title" style={{ color: "#adb1e2 " }}>Roadmap </h1>
+<div class="slider" style={{ marginTop: "10%", marginBottom: "10%" }}>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q1 - 2021</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q2 - 2021</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q3 - 2021</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q4 - 2021</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q5 - 2021</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q6 - 2022</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q7 - 2022</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q8 - 2022</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-container">
+            <h2 class="slide-Title">Q9 - 2022</h2>
+            <div class="slide-description">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
+                    <li>Et tincidunt lectus porta sit amet. </li>
+                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div><br/>
+
+<div className="roadbgto ">
+<div class="container " style={{ marginTop: "5%", marginBottom: "10%" }}>
+    <ul class="prodNav">
+        <li id="pTab1" class="ptItem active">Tab 1</li>
+        <li id="pTab2" class="ptItem">Tab 2</li>
+        <li id="pTab3" class="ptItem">Tab 3</li>
+    </ul>
+
+    <div class="prodBody">
+        <div class="prodMain active" id="pTab1C">
+            Tab Container 1
+        </div>
+
+        <div class="prodMain" id="pTab2C">
+            Tab Container 2
+        </div>
+
+        <div class="prodMain" id="pTab3C">
+            Tab Container 3
+        </div>
+    </div>
+</div>
+<div class='container text-white '  >
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12 col-xxl-6 ">
+            <h2 className="" style={{ marginTop: "10%", fontSize: "50px", color: "#39ff14" }}>Get Involved</h2>
+            <p>
+                Lorem ipsum dolor sit.  Lorem ipsum<br /> dolor sit.  Lorem ipsum dolor sit.
+            </p>
+            <div className='btyh  my-5 mx-auto'>
+                <button type="button" class="btn btn-success ">Sign Up </button>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12  text-black ">
+            <figure className='d-flex justify-content-end'>
+                <img className='img-fluid' style={{ marginBottom: "25%" }} src="image/Asset 26.svg" alt="about image"></img>
+            </figure>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<Footer />
                 </div>
-
-                <h1 class="main-title" style={{ color: "green", marginTop: "13%", color: "white", color: "#39ff14" }}>Roadmap </h1>
-                <div class="slider" style={{ marginTop: "10%", marginBottom: "10%" }}>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q1 - 2021</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q2 - 2021</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q3 - 2021</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q4 - 2021</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q5 - 2021</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q6 - 2022</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q7 - 2022</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q8 - 2022</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="slide-container">
-                            <h2 class="slide-Title">Q9 - 2022</h2>
-                            <div class="slide-description">
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Nunc blandit justo ac dolor lobortis suscipit. </li>
-                                    <li>Et tincidunt lectus porta sit amet. </li>
-                                    <li>Nulla dignissim ligula nec faucibus feugiat. </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div><br/>
-
-
-
-
-
-                <div class="container " style={{ marginTop: "5%", marginBottom: "10%" }}>
-                    <ul class="prodNav">
-                        <li id="pTab1" class="ptItem active">Tab 1</li>
-                        <li id="pTab2" class="ptItem">Tab 2</li>
-                        <li id="pTab3" class="ptItem">Tab 3</li>
-                    </ul>
-
-                    <div class="prodBody">
-                        <div class="prodMain active" id="pTab1C">
-                            Tab Container 1
-                        </div>
-
-                        <div class="prodMain" id="pTab2C">
-                            Tab Container 2
-                        </div>
-
-                        <div class="prodMain" id="pTab3C">
-                            Tab Container 3
-                        </div>
-                    </div>
-                </div>
-
-                <div class='container text-white ' style={{ marginTop: "25%" }} >
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12 col-xxl-6 ">
-                            <h2 className="" style={{ marginTop: "10%", fontSize: "50px", color: "#39ff14" }}>Get Involved</h2>
-                            <p>
-                                Lorem ipsum dolor sit.  Lorem ipsum<br /> dolor sit.  Lorem ipsum dolor sit.
-                            </p>
-                            <div className='btyh  my-5 mx-auto'>
-                                <button type="button" class="btn btn-success ">Sign Up </button>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-md-6 col-12  text-black ">
-                            <figure className='d-flex justify-content-end'>
-                                <img className='img-fluid' style={{ marginBottom: "25%" }} src="image/Asset 26.svg" alt="about image"></img>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-                <Footer />
 
             </div>
         </>

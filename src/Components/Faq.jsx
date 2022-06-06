@@ -58,12 +58,10 @@ export default function Token() {
 
 
                 <div className="container">
-                    <div className="col-md-12 col-sm-12 col-12 text-white">
-                        <h1 style={{ marginTop: "20%", fontSize: "60px" }}>Frequently Asked <br />Question</h1>
-                    </div>
+                    <h1 className="text-center headingtext">Frequently Asked Question</h1>
                 </div>
-                <div class="accordions">
-                    <div class="accordion active" onClick={() => aClick(0)} style={{ marginTop: "10%" }}>
+                <div class="accordions mt-4">
+                    <div class="accordion active" onClick={() => aClick(0)} style={{ padding:"13px" }}>
                         <div class="accordion__header">
                             <div class="accordion__icon">
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +84,7 @@ export default function Token() {
 
 
 
-                    <div class="accordion" onClick={() => aClick(1)} style={{ marginTop: "3%" }}>
+                    <div class="accordion" onClick={() => aClick(1)} style={{ padding:"13px" }}>
                         <div class="accordion__header">
                             <div class="accordion__icon">
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +107,7 @@ export default function Token() {
                     <hr className='news' style={{ marginTop: "2%", width: "800px" }} />
 
 
-                    <div class="accordion" onClick={() => aClick(2)} style={{ marginTop: "3%" }}>
+                    <div class="accordion" onClick={() => aClick(2)} style={{ padding:"13px" }}>
                         <div class="accordion__header">
                             <div class="accordion__icon">
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +128,7 @@ export default function Token() {
 
                     <hr className='news' style={{ marginTop: "2%", width: "800px" }} />
 
-                    <div class="accordion" onClick={() => aClick(3)} style={{ marginTop: "3%" }}>
+                    <div class="accordion" onClick={() => aClick(3)} style={{ padding:"13px" }}>
                         <div class="accordion__header">
                             <div class="accordion__icon">
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +151,7 @@ export default function Token() {
                     <hr className='news' style={{ marginTop: "2%", width: "800px" }} />
 
 
-                    <div class="accordion" onClick={() => aClick(4)} style={{ marginTop: "3%" }}>
+                    <div class="accordion" onClick={() => aClick(4)} style={{ padding:"13px" }}>
                         <div class="accordion__header">
                             <div class="accordion__icon">
                                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -174,18 +172,10 @@ export default function Token() {
                 </div>
 
 
-
-
-
-
-
-
-
-
-                <div class='container text-white ' style={{ marginTop: "30%" }} >
+                <div class='container text-white ' style={{ marginTop: "5%" }} >
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12 col-xxl-6 ">
-                            <h2 className='text-center' style={{ marginTop: "10%", fontSize: "50px", marginRight: "15%" }}>Get Involved</h2>
+                            <h2 className='headingtext text-center' style={{ marginTop: "10%", fontSize: "50px", marginRight: "15%" }}>Get Involved</h2>
                             <p style={{ marginLeft: "22%" }}>
                                 Lorem ipsum dolor sit.  Lorem ipsum<br /> dolor sit.  Lorem ipsum dolor sit.
                             </p >

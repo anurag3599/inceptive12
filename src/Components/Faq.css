@@ -27,14 +27,12 @@ body {
     flex-shrink: 0;
     box-sizing: border-box;
   }
-  .accordions{
-    margin: 33vh auto 0;
-  }
+  
   .accordion {
     margin: 10px auto;
     position: relative;
     border-radius: .88rem;
-    background: #fff;
+    background: linear-gradient(285.64deg, #5e46bb 17.39%, #865095 111.44%);
     width: 800px;
     
   }
@@ -54,7 +52,7 @@ body {
      width: 19rem; 
     padding: .31rem 1.25rem .44rem .56rem;
     cursor: pointer;
-    background: #fff;
+    /* background: #fff; */
     border-radius: .88rem;
     z-index: 10
   }
@@ -68,7 +66,7 @@ body {
   
   .accordion__title {
     font-weight: 700;
-    font-size: .75rem;
+    font-size: 22px;
   }
   
   .accordion__body {
@@ -83,7 +81,7 @@ body {
   
   .accordion__inner {
     position: relative;
-    padding: 2.13rem 1.19rem 1rem 2.5rem;
+    padding: 3.13rem 1.19rem 1rem 2.5rem;
      /* width: 19rem;  */
     font-size: .88rem;
     line-height: 1.13rem

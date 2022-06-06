@@ -14,9 +14,9 @@ function Progress() {
     const [percent, setpercent] = useState(percentarr.nine);
     return (
         <>
-            <div className='container' style={{}}>
-                <div className='row'>
-                    <div className=' p-5 col-lg-6 col-md-6 col-sm-12'>
+            
+               
+                    <div className=''>
                         <div>
                             <div style={{ display: "flex", flexDirection: "row", }}>
                                 <div style={{ display: "flex", flexDirection: "row", flex: 0.3, }}>
@@ -51,8 +51,8 @@ function Progress() {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+            
+            
         </>
     )
 }

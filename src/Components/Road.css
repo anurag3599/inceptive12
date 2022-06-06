@@ -6,7 +6,20 @@
     background-size: cover; 
     background-color: white;
 } 
-
+.roadbg{
+  background-image: url("/public/image/bg-bottom.svg");
+    /* background-position: top left; */
+    background-position: bottom right;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+.roadbgto{
+  background-image: url("/public/image/build-section-bg.png");
+  /* background-position: top left; */
+  background-position: top right;
+  background-size: 123%;
+  background-repeat: no-repeat;
+}
 body{
   
     margin:0;

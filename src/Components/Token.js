@@ -6,10 +6,6 @@ import $ from 'jquery';
 import Footer from "./Footer";
 
 
-
-
-
-
 function Token() {
     $.fn.aksCountDown = function (options) {
         console.log("calledd")
@@ -93,17 +89,18 @@ function Token() {
 
             <div className="container-fluid wrap">
                 <Navbar />
-                <div className="container">
-                    <div className="col-md-12 col-sm-12 col-12 text-white">
-                        <h1 style={{ marginTop: "20%", fontSize: "60px", marginBottom: "8%" , }}>The Token <br />Rank</h1>
-                    </div>
+              <div className="wraptokenpg">
+              <div className="container">
+                   
+                        <h1  className='headingtext text-center mt-4'>The Token Rank</h1>
+            
                 </div>
 
                 <div className="container husss">
                     <div className="row">
                         <div className="col-12">
-                            <h1 className="tohead" style={{ textAlign: "center", marginTop: "5%",color:"white",color: "#39ff14" }}>Analog Tokens</h1>
-                            <h4 className="tohead" style={{ textAlign: "center", marginTop: "2%",color:"white",color: "#39ff14" }}>Our Tokens with a realworld use case created on the blockchain network</h4>
+                            <h1 className="tohead" style={{ textAlign: "center",color:"white",color: "#adb1e2" }}>Analog Tokens</h1>
+                            <h4 className="tohead" style={{ textAlign: "center",color:"white",color: "#adb1e2" }}>Our Tokens with a realworld use case created on the blockchain network</h4>
                         </div>
                     </div>
                 </div>
@@ -378,6 +375,7 @@ function Token() {
 
 
                 <Footer />
+              </div>
 
             </div>
         </>
