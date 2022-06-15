@@ -5,7 +5,7 @@ export default function Navbar() {
   const navigate = useNavigate();
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light imheaderclass" style={{ backgroundColor: "transparent !important" }}>
+      <nav class="navbar navbar-expand-lg sticky-top navbar-light imheaderclass" style={{ backgroundColor: "transparent !important" }}>
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="../image/logo (1) (1).png" alt="" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{ outline: "none", border: "none", color: "white" }}>
@@ -31,9 +31,9 @@ export default function Navbar() {
               <li class="nav-item">
                 <Link class="nav-link active text-white" aria-current="page" to="/Faq">FAQ</Link>
               </li>
-              <button type="button" class="headerBtn btnntoo" onClick={() => navigate("/login")}>
-              <span className="btnn-span">Account</span>
-              </button>
+              <li class="nav-link active text-white" onClick={() => navigate("/login")}>
+            Account
+              </li>
             </ul>
           </div>
         </div>

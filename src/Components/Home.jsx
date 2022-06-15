@@ -241,55 +241,58 @@ function Frontdesign() {
   }, []);
 
   return (
-    <div>
-      <div className="container-fluid wrapper">
+    <div style={{background:"#0d0d18"}}> 
+   
+      <div className="">
+        <section className="bannersection">
         <Navbar />
-
-        <section id="header">
           <div className="container-fluid nav_bg banner pt-1">
-            <div className="container">
+            <div className="">
               <div className="row">
-                <div className="col-lg-6 mb-2">
-                  <div className="mt-5 bannertext">
-                    <h1 className="font-weight-bold customheading">
-                      Revolutionsing The investment <br /> management industry
-                    </h1>
+              <div className=" bannertext">
+                    <h1 className="font-weight-bold text-center customheading" style={{fontsize:"46px"}}>
+                      Revolutionsing The investment 
+                                      </h1>
+                                      <h1 className="font-weight-bold text-center text-light">management industry</h1>    
 
-                    <h5 className="font-weight-bold text-light customh5s">
-                      throught articial intelligence
+                    <h5 className="font-weight-bold text-light text-center customh5s">
+                      Throught Articial Intelligence
                     </h5>
-                    <div className="mt-5 ">
-                      <button
-                        type="button"
-                        class="btn btn-outline-success mr-2"
-                        style={{
-                          backgroundImage:
-                            "linear-gradient(to bottom right, #7bbd24, #00ffb1)",
-                          color: "#fff",
-                          border: "1px solid  #7bbd24",
-                          padding: "5px 50px 5px 50px",
-                          marginRight: "30px",
-                        }}
-                      >
-                        Join
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-outline-light"
-                        style={{
-                          background: "#fff",
-                          color: "#000",
-                          border: "1px solid  #fff",
-                          padding: "5px 30px 5px 30px",
-                        }}
-                      >
-                        Token Sale
-                      </button>
+                    <div className=" d-flex justify-content-center ">
+                      <div className="">
+                     
+                        <button
+                          type="button"
+                          class="btn btn-outline-success"
+                          style={{
+                            backgroundImage:
+                              "linear-gradient(to bottom right, #0d0d1a, #452645)",
+                            color: "#fff",
+                            border: "1px solid  #0d0d18",
+                            padding: "5px 50px 5px 50px",
+                          }}
+                        >
+                          Join
+                        </button>
+                      </div>
+                      <div className="">
+                        <button
+                          type="button"
+                          class="btn btn-outline-light"
+                          style={{
+                            background: "#964843",
+                            color: "#fff",
+                            border: "1px solid  #964843",
+                            padding: "5px 30px 5px 30px",
+                          }}
+                        >
+                          Token Sale
+                        </button>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="col-lg-6 counter pt-5  shadow mb-5  ">
+                {/* <div className="col-lg-6 counter pt-5  shadow mb-5  ">
                   <h3
                     className="font-weight-bold text-center"
                     style={{ color: "#c627a8" }}
@@ -301,8 +304,8 @@ function Frontdesign() {
                       <div class="unit-list my-3 mx-5">
                         <div class="item">Days</div>
                         <div class="item">Hours</div>
-                        <div class="item">Minutes</div>
-                        <div class="item">Seconds</div>
+                        <div class="item">Minute</div>
+                        <div class="item">Second</div>
                       </div>
                       <div class="number-list ">
                         <div class="item" data-days="">
@@ -340,7 +343,7 @@ function Frontdesign() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -365,9 +368,9 @@ function Frontdesign() {
                   className="allhead font-weight-bold"
                   style={{
                     fontSize: "48px",
-color:"#adb1e2",
+                    color: "#adb1e2",
                     marginBottom: "6%",
-                    fontFamily: "'Charis SIL'",
+                   fontfamily: 'Nunito',
                   }}
                 >
                   What is Prediction
@@ -526,14 +529,11 @@ color:"#adb1e2",
 
         <div className=" container mx-auto text-dark  ">
           <div className="row">
-            <h1 className="text-center headingtext" >
-              Solution
-            </h1>
+            <h1 className="text-center headingtext">Solution</h1>
 
             {/* cards */}
             <Cards />
           </div>
-          
         </div>
 
         <h3
@@ -543,7 +543,7 @@ color:"#adb1e2",
           Alpha Platform Launched Since January
         </h3>
 
-        <div className=" container mx-auto text-dark text-center imgbackg  ">
+        <div className="text-center imgbackg  ">
           <div className="row" style={{ marginTop: "7 %" }}>
             <div className="col-md-6">
               <div className="card my-2 mx-3">
@@ -661,21 +661,19 @@ color:"#adb1e2",
 
         <div className="container plathead">
           <div className="row text-white text-center">
-            <h1 className="headingtext">
-              Who is the Platform for?
-            </h1>
+            <h1 className="headingtext">Who is the Platform for?</h1>
           </div>
         </div>
 
         <Cardsto />
 
         <div className="container" style={{ padding: "0px 50px 50px 0px" }}>
-          <h3
+          <h2
             className="text-white text-center mb-5"
             style={{ fontSize: "50px", marginTop: "15%" }}
           >
             Our Documents
-          </h3>
+          </h2>
           <div className="row">
             <Carousel responsive={responsiveOne}>
               <div className="">
@@ -951,13 +949,16 @@ color:"#adb1e2",
             <div className="col-lg-3"></div>
             <div className="col-lg-6 text-center">
               <figure>
+                <div className="container">
                 <Lottie
                   options={defaultOptions1}
-                  height={400}
-                  width={400}
+                  height={350}
+                  width={350}
                   isStopped={isStopped}
                   isPaused={isPaused}
+                  className="circlecus"
                 />
+                </div>
               </figure>
               <button className="btn btn btn-success btnntoo w-100">
                 <span className="btnn-span">Token Distribution</span>
@@ -1180,82 +1181,127 @@ color:"#adb1e2",
 
               <div className="container">
                 <div class="table-responsive">
-                  <table class="table table-borderless" style={{borderColor: "#2cc63f"}}>
+                  <table
+                    class="table table-borderless"
+                    style={{ borderColor: "#2cc63f" }}
+                  >
                     <thead>
                       <tr>
                         <th scope="col"></th>
                         <th scope="col">
-                          <h3 style={{color: "#2cc63f",borderBottom:"2px dotted #2cc63f"}}>ICO</h3>
+                          <h3
+                            style={{
+                              color: "#2cc63f",
+                              borderBottom: "2px dotted #2cc63f",
+                            }}
+                          >
+                            ICO
+                          </h3>
                         </th>
                         <th scope="col">
-                          <h3 style={{color: "#2cc63f",borderBottom:"2px dotted #2cc63f"}}>INRX</h3>
+                          <h3
+                            style={{
+                              color: "#2cc63f",
+                              borderBottom: "2px dotted #2cc63f",
+                            }}
+                          >
+                            INRX
+                          </h3>
                         </th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr  style={{borderBottom:"1px dotted #2cc63f"}}>
-                        <th scope="row"  >
+                      <tr style={{ borderBottom: "1px dotted #2cc63f" }}>
+                        <th scope="row">
                           <h4>Aligned interest between investor and team</h4>
                         </th>
                         <td>
-                         <p> Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                         <td>
-                          <p>Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
-                        </td>
-                      </tr>
-                      <tr style={{borderBottom:"1px dotted #2cc63f"}}>
-                        <th scope="row"  >
-                         <h4> Ability to raise follow - on funding</h4>
-                        </th>
-                        <td>
-                          <p>Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
-                        </td>
-                        <td>
-                        <p>  Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                       </tr>
-                      <tr  style={{borderBottom:"1px dotted #2cc63f"}}> 
-                      <th scope="row" >
-<h4>                      Transparency requirement</h4>
+                      <tr style={{ borderBottom: "1px dotted #2cc63f" }}>
+                        <th scope="row">
+                          <h4> Ability to raise follow - on funding</h4>
                         </th>
                         <td>
-                        <p>  Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                         <td>
-                        <p>  Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                       </tr>
-                      <tr style={{borderBottom:"1px dotted #2cc63f"}}>
-                      <th scope="row"  >
-                      <h4>  Return on capital</h4>
+                      <tr style={{ borderBottom: "1px dotted #2cc63f" }}>
+                        <th scope="row">
+                          <h4> Transparency requirement</h4>
                         </th>
                         <td>
-                        <p>  Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                         <td>
-                        <p>  Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                       </tr>
-                      <tr  style={{borderBottom:"1px dotted #2cc63f"}} >
-                      <th scope="row"> 
-                    <h4>  Return on capital</h4>
+                      <tr style={{ borderBottom: "1px dotted #2cc63f" }}>
+                        <th scope="row">
+                          <h4> Return on capital</h4>
                         </th>
                         <td>
-                        <p>  Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                         <td>
-                        <p>  Lorem ipsum is placeholder text commonly used in the
-                          graphic, print, and publishing industries .</p>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
+                        </td>
+                      </tr>
+                      <tr style={{ borderBottom: "1px dotted #2cc63f" }}>
+                        <th scope="row">
+                          <h4> Return on capital</h4>
+                        </th>
+                        <td>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
+                        </td>
+                        <td>
+                          <p>
+                            {" "}
+                            Lorem ipsum is placeholder text commonly used in the
+                            graphic, print, and publishing industries .
+                          </p>
                         </td>
                       </tr>
                     </tbody>
@@ -1263,11 +1309,10 @@ color:"#adb1e2",
                 </div>
               </div>
 
-            
-              <h3 className="text-white text-center"
+              <h3
+                className="text-white text-center"
                 style={{
                   marginTop: "14%",
-               
                 }}
               >
                 More question On Daitos ? Read our FAQs
@@ -1329,7 +1374,13 @@ color:"#adb1e2",
                                 />
                               </div>
                               <div class="submit-wrap">
-                                <button class="btnn " style={{background:"#5d4676",borderColor:"#5d4676"}}>
+                                <button
+                                  class="btnn "
+                                  style={{
+                                    background: "#5d4676",
+                                    borderColor: "#5d4676",
+                                  }}
+                                >
                                   Let Me Join
                                 </button>
                               </div>
@@ -1897,13 +1948,10 @@ color:"#adb1e2",
           </Carousel>
         </div>
 
-        <div class="container mt-3" >
+        <div class="container mt-3">
           <div class="row">
             <div class="col-lg-6 col-sm-6 ">
-              <h2
-                className=""
-                style={{ fontSize: "50px", color: "#39ff14" }}
-              >
+              <h2 className="" style={{ fontSize: "50px", color: "#39ff14" }}>
                 Get Involved
               </h2>
               <p>
@@ -1921,7 +1969,7 @@ color:"#adb1e2",
               <figure className="d-flex justify-content-end">
                 <img
                   className="img-fluid"
-                  style={{width:"310px" }}
+                  style={{ width: "310px" }}
                   src="image/Asset 26.svg"
                   alt="about image"
                 ></img>
